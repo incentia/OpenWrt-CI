@@ -16,10 +16,8 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone https://github.com/0118Add/luci-app-ssr-plus.git package/luci-app-ssr-plus
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/xiaorouji/openwrt-package.git package/openwrt-package
-#git clone https://github.com/0118Add/luci-app-clash.git package/luci-app-clash
 #git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 #git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
-#git clone https://github.com/8688Add/small.git package/small
 #git clone https://github.com/8688Add/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
 #git clone https://github.com/8688Add/luci-theme-opentomato.git package/luci-theme-opentomato
 #git clone https://github.com/siropboy/mypackages.git package/luci-app-koolddns
