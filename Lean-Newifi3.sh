@@ -20,7 +20,7 @@ git clone https://github.com/xiaorouji/openwrt-package.git package/openwrt-packa
 #git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
 #git clone https://github.com/8688Add/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
 #git clone https://github.com/8688Add/luci-theme-opentomato.git package/luci-theme-opentomato
-git clone https://github.com/siropboy/mypackages.git package/luci-app-koolddns
+git clone https://github.com/bin20088/luci-app-koolddns.git package/luci-app-koolddns
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
