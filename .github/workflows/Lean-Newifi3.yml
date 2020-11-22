@@ -19,7 +19,7 @@ env:
   DIY_SH: Lean-Newifi3.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: false
-  UPLOAD_RELEASE: true
+  UPLOAD_RELEASE: false
   UPLOAD_WETRANSFER: false
   UPLOAD_COWTRANSFER: false
   TZ: Asia/Shanghai
