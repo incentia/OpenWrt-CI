@@ -27,6 +27,9 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 #git clone -b 18.06 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 #git clone https://github.com/8688Add/luci-app-passwall-plus.git package/luci-app-passwall-plus
+rm -rf package/lean/luci-app-frpc
+git clone https://github.com/8688Add/luci-app-frpc-mod.git package/lean/luci-app-frpc
+chmod 0755 package/lean/luci-app-frpc/root/etc/init.d/frp
 
 #赋予koolddns权限
 chmod 0755 package/luci-app-koolddns/root/etc/init.d/koolddns
