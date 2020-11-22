@@ -12,10 +12,11 @@ name: R619ac
 
 on:
   repository_dispatch:
+    types: [R619ac,sshR619ac]
   workflow_dispatch:
     inputs:
       ssh:
-        description: 'SSH connection to Actions'
+        description: 'R619ac'
         required: false
         default: 'false'
 #  schedule:
@@ -28,7 +29,7 @@ env:
   CONFIG_FILE: R619ac.config
   DIY_P1_SH: R619ac.sh
   DIY_P2_SH: diy-part2.sh
-  UPLOAD_BIN_DIR: true
+  UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
