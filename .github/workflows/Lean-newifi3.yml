@@ -1,4 +1,4 @@
-name: Lean-Newifi3
+name: Lean-newifi3
 
 on:
   repository_dispatch:
@@ -15,8 +15,8 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: Lean-Newifi3.config
-  DIY_P1_SH: Lean-Newifi3.sh
+  CONFIG_FILE: Lean-newifi3.config
+  DIY_P1_SH: Lean-newifi3.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
