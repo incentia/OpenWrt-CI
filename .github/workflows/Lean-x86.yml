@@ -1,4 +1,4 @@
-name: Lean-X86
+name: Lean-x86
 
 on:
   repository_dispatch:
@@ -15,8 +15,8 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: Lean-X86.config
-  DIY_P1_SH: Lean-X86.sh
+  CONFIG_FILE: Lean-x86.config
+  DIY_P1_SH: Lean-x86.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
