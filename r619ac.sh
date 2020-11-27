@@ -14,7 +14,7 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/lean/luci-app-passwall
 #svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lean/package
 git clone https://github.com/xiaorouji/openwrt-package.git package/openwrt-package
-#git clone https://github.com/0118Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
+git clone https://github.com/8688Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
 #git clone https://github.com/0118Add/luci-app-clash.git package/luci-app-clash
 git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 #git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
