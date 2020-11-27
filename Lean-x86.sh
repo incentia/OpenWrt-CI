@@ -11,7 +11,7 @@ git clone https://github.com/lisaac/luci-app-dockerman.git package/openwrt-packa
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone https://github.com/0118Add/luci-app-ssr-plus.git package/luci-app-ssr-plus
 git clone https://github.com/xiaorouji/openwrt-package.git package/openwrt-package
-git clone https://github.com/0118Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
+git clone https://github.com/8688Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
 #git clone https://github.com/8688Add/luci-app-koolproxyR.git package/luci-app-koolproxyR
 #git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 #git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
