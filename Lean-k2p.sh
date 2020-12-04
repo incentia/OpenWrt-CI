@@ -22,3 +22,6 @@ sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-flowo
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-sfe/po/zh-cn/sfe.po
 sed -i 's/"ShadowSocksR Plus+"/"SSR Plus+"/g' package/luci-app-ssr-plus/luasrc/controller/shadowsocksr.lua
 sed -i 's/"解锁网易云灰色歌曲"/"解锁网易音乐"/g' package/lean/luci-app-unblockmusic/po/zh-cn/unblockmusic.po
+
+./scripts/feeds update -a
+./scripts/feeds install -a
