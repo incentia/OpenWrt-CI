@@ -1,4 +1,4 @@
-name: Lean-newifi3
+name: Lean-k2p
 
 on:
   repository_dispatch:
@@ -12,11 +12,11 @@ on:
   #  - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/Mattraks/lede
+  REPO_BRANCH: develop
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: Lean-newifi3.config
-  DIY_P1_SH: Lean-newifi3.sh
+  CONFIG_FILE: Lean-k2p.config
+  DIY_P1_SH: Lean-k2p.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
