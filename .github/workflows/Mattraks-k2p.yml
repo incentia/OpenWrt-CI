@@ -15,8 +15,8 @@ env:
   REPO_URL: https://github.com/Mattraks/lede
   REPO_BRANCH: develop
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: Mattraks.config
-  DIY_P1_SH: Mattraks.sh
+  CONFIG_FILE: Mattraks-k2p.config
+  DIY_P1_SH: Mattraks-k2p.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
