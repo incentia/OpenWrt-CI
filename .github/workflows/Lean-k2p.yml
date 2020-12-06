@@ -1,4 +1,4 @@
-name: Mattraks-k2p
+name: Lean-k2p
 
 on:
   repository_dispatch:
@@ -12,11 +12,11 @@ on:
   #  - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/Mattraks/lede
-  REPO_BRANCH: develop
+  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: Mattraks-k2p.config
-  DIY_P1_SH: Mattraks-k2p.sh
+  CONFIG_FILE: Lean-k2p.config
+  DIY_P1_SH: Lean-k2p.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
