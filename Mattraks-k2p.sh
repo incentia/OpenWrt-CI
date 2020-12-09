@@ -22,5 +22,5 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/lean/luci-app-un
 # 修改插件名字（修改名字后不知道会不会对插件功能有影响，自己多测试）
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-flowoffload/po/zh-cn/flowoffload.po
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-sfe/po/zh-cn/sfe.po
-sed -i 's/"ShadowSocksR Plus+"/"SSR Plus+"/g' package/lean/luci-app-ssr-plus/luasrc/controller/shadowsocksr.lua
+#sed -i 's/"ShadowSocksR Plus+"/"SSR Plus+"/g' package/lean/luci-app-ssr-plus/luasrc/controller/shadowsocksr.lua
 sed -i 's/"解锁网易云灰色歌曲"/"解锁网易音乐"/g' package/lean/luci-app-unblockmusic/po/zh-cn/unblockmusic.po
