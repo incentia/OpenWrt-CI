@@ -1,5 +1,5 @@
 #修改版本号
-#sed -i 's/OpenWrt/BGG $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt/g' package/lean/default-settings/files/zzz-default-settings
+sed -i 's/OpenWrt/BGG $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt/g' package/lean/default-settings/files/zzz-default-settings
 
 # 设置密码为空（安装固件时无需密码登陆，然后自己修改想要的密码）
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
@@ -27,4 +27,4 @@ svn co https://github.com/Mattraks/helloworld/trunk/tcping package/lean/tcping
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-flowoffload/po/zh-cn/flowoffload.po
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-sfe/po/zh-cn/sfe.po
 #sed -i 's/"ShadowSocksR Plus+"/"SSR Plus+"/g' package/lean/luci-app-ssr-plus/luasrc/controller/shadowsocksr.lua
-sed -i 's/"解锁网易云灰色歌曲"/"解锁网易云音乐"/g' package/lean/luci-app-unblockmusic/po/zh-cn/unblockmusic.po
+#sed -i 's/"解锁网易云灰色歌曲"/"解锁网易云音乐"/g' package/lean/luci-app-unblockmusic/po/zh-cn/unblockmusic.po
