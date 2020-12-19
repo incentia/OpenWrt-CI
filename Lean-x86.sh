@@ -2,18 +2,18 @@
 #sed -i "s/OpenWrt /BGG build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 #使用源码自带ShadowSocksR Plus+出国软件
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=4.19/g' target/linux/x86/Makefile
-sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.19/g' target/linux/x86/Makefile
+#sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=4.19/g' target/linux/x86/Makefile
+#sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.19/g' target/linux/x86/Makefile
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 rm -rf package/lean/luci-app-dockerman
 git clone https://github.com/lisaac/luci-app-dockerman.git package/openwrt-packages/luci-app-dockerman
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone https://github.com/0118Add/luci-app-ssr-plus.git package/luci-app-ssr-plus
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone https://github.com/8688Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
+#git clone https://github.com/8688Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
 #git clone https://github.com/8688Add/luci-app-koolproxyR.git package/luci-app-koolproxyR
-#git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 #git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
 #git clone https://github.com/ElonH/Rclone-OpenWrt.git package/luci-app-rclone
