@@ -16,7 +16,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #git clone https://github.com/0118Add/luci-app-ssr-plus.git package/luci-app-ssr-plus
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone https://github.com/0118Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
+#git clone https://github.com/0118Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
 #git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 #git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
 #git clone https://github.com/8688Add/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
@@ -31,7 +31,7 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 rm -rf package/lean/luci-app-frpc
 git clone https://github.com/8688Add/luci-app-frpc-mod.git package/lean/luci-app-frpc
 chmod 0755 package/lean/luci-app-frpc/root/etc/init.d/frp
-svn co https://github.com/8688Add/sirpdboy-package/trunk/luci-app-ddnsto package/luci-app-ddnsto
+#svn co https://github.com/8688Add/sirpdboy-package/trunk/luci-app-ddnsto package/luci-app-ddnsto
 
 #赋予koolddns权限
 chmod 0755 package/luci-app-koolddns/root/etc/init.d/koolddns
