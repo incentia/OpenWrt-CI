@@ -1,4 +1,4 @@
-name: r619ac
+name: r2s
 
 on:
   repository_dispatch:
@@ -15,8 +15,8 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: r619ac.config
-  DIY_P1_SH: r619ac.sh
+  CONFIG_FILE: r2s.config
+  DIY_P1_SH: r2s.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
