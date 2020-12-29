@@ -12,6 +12,8 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz
 #rm -rf package/lean/xray
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray package/xray
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
 git clone https://github.com/8688Add/luci-app-adbyby-plus-special.git package/luci-app-adbyby-plus-ram_edition-special
 #rm -rf package/lean/luci-theme-argon
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
