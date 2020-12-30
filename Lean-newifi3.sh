@@ -5,7 +5,7 @@
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
 
 #使用源码自带ShadowSocksR Plus+出国软件
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 #sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=4.14/g' target/linux/ramips/Makefile
 #sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.14/g' target/linux/ramips/Makefile
@@ -21,7 +21,7 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-pass
 #git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
 #git clone https://github.com/8688Add/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
 #git clone https://github.com/8688Add/luci-theme-opentomato.git package/luci-theme-opentomato
-git clone https://github.com/bin20088/luci-app-koolddns.git package/luci-app-koolddns
+#git clone https://github.com/bin20088/luci-app-koolddns.git package/luci-app-koolddns
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
@@ -36,8 +36,8 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/lean/luci-app-un
 #svn co https://github.com/8688Add/sirpdboy-package/trunk/luci-app-ddnsto package/luci-app-ddnsto
 
 #赋予koolddns权限
-chmod 0755 package/luci-app-koolddns/root/etc/init.d/koolddns
-chmod 0755 package/luci-app-koolddns/root/usr/share/koolddns/aliddns
+#chmod 0755 package/luci-app-koolddns/root/etc/init.d/koolddns
+#chmod 0755 package/luci-app-koolddns/root/usr/share/koolddns/aliddns
 
 # 修改插件名字（修改名字后不知道会不会对插件功能有影响，自己多测试）
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-flowoffload/po/zh-cn/flowoffload.po
