@@ -4,8 +4,8 @@
 #使用源码自带ShadowSocksR Plus+出国软件
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-#sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=4.19/g' target/linux/x86/Makefile
-#sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.19/g' target/linux/x86/Makefile
+sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=4.19/g' target/linux/x86/Makefile
+sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.19/g' target/linux/x86/Makefile
 
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 rm -rf package/lean/luci-app-dockerman
@@ -30,14 +30,14 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-gost package/lean/luci-app-gost
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/gost package/lean/gost
-rm -rf feeds/packages/net/https-dns-proxy
-svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy
+#rm -rf feeds/packages/net/https-dns-proxy
+#svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy
 #git clone https://github.com/riverscn/openwrt-iptvhelper.git package/luci-app-iptvhelper
-git clone https://github.com/bin20088/luci-app-koolddns.git package/luci-app-koolddns
+#git clone https://github.com/bin20088/luci-app-koolddns.git package/luci-app-koolddns
 
 #赋予koolddns权限
-chmod 0755 package/luci-app-koolddns/root/etc/init.d/koolddns
-chmod 0755 package/luci-app-koolddns/root/usr/share/koolddns/aliddns
+#chmod 0755 package/luci-app-koolddns/root/etc/init.d/koolddns
+#chmod 0755 package/luci-app-koolddns/root/usr/share/koolddns/aliddns
 
 # 修改openwrt登陆地址,把下面的192.168.2.2修改成你想要的就可以了
 #sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
