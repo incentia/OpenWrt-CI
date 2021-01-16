@@ -16,6 +16,7 @@ git clone https://github.com/Mattraks/helloworld.git package/lean/luci-app-ssr-p
 rm -rf package/lean/xray
 svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray package/lean/xray
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
 #git clone https://github.com/8688Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
 #git clone https://github.com/8688Add/luci-app-koolproxyR.git package/luci-app-koolproxyR
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
