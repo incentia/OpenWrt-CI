@@ -1,4 +1,4 @@
-name: Lienol-k2p
+name: project-k2p
 
 on:
   repository_dispatch:
@@ -12,11 +12,11 @@ on:
   #  - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: 19.07
+  REPO_URL: https://github.com/project-openwrt/openwrt
+  REPO_BRANCH: openwrt-18.06-k5.4
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: Lienol-k2p.config
-  DIY_P1_SH: Lienol-k2p.sh
+  CONFIG_FILE: project-k2p.config
+  DIY_P1_SH: project-k2p.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
