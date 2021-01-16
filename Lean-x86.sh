@@ -13,6 +13,8 @@ git clone https://github.com/lisaac/luci-app-dockerman.git package/openwrt-packa
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone https://github.com/0118Add/luci-app-ssr-plus.git package/luci-app-ssr-plus
+rm -rf package/lean/xray
+svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray package/lean/xray
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 #git clone https://github.com/8688Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
 #git clone https://github.com/8688Add/luci-app-koolproxyR.git package/luci-app-koolproxyR
