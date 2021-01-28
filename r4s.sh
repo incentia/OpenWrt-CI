@@ -16,8 +16,8 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 #svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/lean/luci-app-passwall
 #svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lean/package
-rm -rf package/lean/xray
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray package/lean/xray
+#rm -rf package/lean/xray
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray package/lean/xray
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
 git clone https://github.com/Mattraks/helloworld.git package/lean/luci-app-ssr-plus
