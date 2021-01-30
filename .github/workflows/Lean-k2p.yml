@@ -170,7 +170,7 @@ jobs:
     - name: Remove old Artifacts
       uses: c-hive/gha-remove-artifacts@v1.2.0
       with:
-        age: '30 day'
+        age: '10 day'
         skip-recent: 2
 
     - name: Remove old Releases
