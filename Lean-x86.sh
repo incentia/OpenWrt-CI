@@ -76,5 +76,3 @@ sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-sfe/p
 #sed -i 's/"Web 管理"/"Web"/g' package/lean/luci-app-webadmin/po/zh-cn/webadmin.po
 #sed -i 's/"管理权"/"改密码"/g' feeds/luci/modules/luci-base/po/zh-cn/base.po
 #sed -i 's/"带宽监控"/"监视"/g' feeds/luci/applications/luci-app-nlbwmon/po/zh-cn/nlbwmon.po
-sed -i 's/shadowsocksr-libev-alt/shadowsocksr-libev-ssr-redir/g' package/lean/*/Makefile
-sed -i 's/shadowsocksr-libev-server/shadowsocksr-libev-ssr-server/g' package/lean/*/Makefile
