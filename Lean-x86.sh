@@ -2,7 +2,7 @@
 #sed -i "s/OpenWrt /BGG build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
 #使用源码自带ShadowSocksR Plus+出国软件
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=4.19/g' target/linux/x86/Makefile
 sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.19/g' target/linux/x86/Makefile
@@ -12,7 +12,7 @@ rm -rf package/lean/luci-app-dockerman
 git clone https://github.com/lisaac/luci-app-dockerman.git package/openwrt-packages/luci-app-dockerman
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone https://github.com/Mattraks/helloworld.git package/lean/luci-app-ssr-plus
+#git clone https://github.com/Mattraks/helloworld.git package/lean/luci-app-ssr-plus
 #rm -rf package/lean/xray
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray package/lean/xray
 git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
