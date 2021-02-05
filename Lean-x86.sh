@@ -32,8 +32,8 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-ap
 #rm -rf package/applications/luci-app-https-dns-proxy
 #git clone https://github.com/8688Add/https-dns-proxy.git package/applications/luci-app-https-dns-proxy-whisky
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-gost package/lean/luci-app-gost
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/gost package/lean/gost
+#svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-gost package/lean/luci-app-gost
+#svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/gost package/lean/gost
 #rm -rf feeds/packages/net/https-dns-proxy
 #svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy
 #git clone https://github.com/riverscn/openwrt-iptvhelper.git package/luci-app-iptvhelper
