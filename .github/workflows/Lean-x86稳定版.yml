@@ -1,4 +1,4 @@
-name: Lean-x86
+name: Lean-x86稳定版
 
 on:
   repository_dispatch:
@@ -12,8 +12,8 @@ on:
   #  - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/coolsnowwolf/openwrt
+  REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: Lean-x86.config
   DIY_P1_SH: Lean-x86.sh
