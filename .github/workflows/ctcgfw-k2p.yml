@@ -1,4 +1,4 @@
-name: project-k2p
+name: ctcgfw-k2p
 
 on:
   repository_dispatch:
