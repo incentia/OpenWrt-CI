@@ -1,4 +1,4 @@
-name: ctcgfw-k2p
+name: CTCGFW-k2p
 
 on:
   repository_dispatch:
@@ -15,8 +15,8 @@ env:
   REPO_URL: https://github.com/project-openwrt/openwrt
   REPO_BRANCH: openwrt-18.06-k5.4
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: project-k2p.config
-  DIY_P1_SH: project-k2p.sh
+  CONFIG_FILE: CTCGFW-k2p.config
+  DIY_P1_SH: CTCGFW-k2p.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
