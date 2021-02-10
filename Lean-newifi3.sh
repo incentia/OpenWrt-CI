@@ -21,7 +21,7 @@ git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-byp
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 #git clone https://github.com/Mattraks/helloworld.git package/luci-app-ssr-plus
 #git clone https://github.com/0118Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
-git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 #git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
 #git clone https://github.com/8688Add/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
 #git clone https://github.com/8688Add/luci-theme-opentomato.git package/luci-theme-opentomato
