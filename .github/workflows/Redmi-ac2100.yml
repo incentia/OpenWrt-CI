@@ -1,4 +1,4 @@
-name: Lean-k2p
+name: Redmi-ac2100
 
 on:
   repository_dispatch:
@@ -15,8 +15,8 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: Lean-k2p.config
-  DIY_P1_SH: Lean-k2p.sh
+  CONFIG_FILE: Redmi-ac2100.config
+  DIY_P1_SH: Redmi-ac2100.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
