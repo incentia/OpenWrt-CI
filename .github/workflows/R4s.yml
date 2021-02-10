@@ -1,4 +1,4 @@
-name: r4s
+name: R4s
 
 on:
   repository_dispatch:
