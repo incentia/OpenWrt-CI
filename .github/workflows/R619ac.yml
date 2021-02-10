@@ -1,4 +1,4 @@
-name: r619ac
+name: R619ac
 
 on:
   repository_dispatch:
