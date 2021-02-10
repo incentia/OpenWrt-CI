@@ -7,17 +7,17 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz
 # 使用源码自带ShadowSocksR Plus+出国软件
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #rm -rf package/lean/xray
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray package/lean/xray
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 #git clone https://github.com/Mattraks/helloworld.git package/luci-app-ssr-plus
+git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 git clone https://github.com/8688Add/luci-app-adbyby-plus-special.git package/luci-app-adbyby-plus-ram_edition-special
-#rm -rf package/lean/luci-theme-argon
-#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
-#rm -rf package/lean/mt
-#svn co https://github.com/0118Add/lede/trunk/package/lean/mt package/lean/mt
+rm -rf package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 rm -rf package/lean/luci-app-frpc
 git clone https://github.com/8688Add/luci-app-frpc-mod.git package/lean/luci-app-frpc
 chmod 0755 package/lean/luci-app-frpc/root/etc/init.d/frp
