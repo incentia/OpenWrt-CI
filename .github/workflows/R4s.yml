@@ -167,17 +167,17 @@ jobs:
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
 
-    - name: Remove old Artifacts
-      uses: c-hive/gha-remove-artifacts@v1.2.0
+    - name: Delete workflow runs
+      uses: GitRML/delete-workflow-runs@main
       with:
-        age: '30 day'
-        skip-recent: 2
+        retain_days: 10
+        keep_minimum_runs: 3
 
     - name: Remove old Releases
       uses: dev-drprasad/delete-older-releases@v0.1.0
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       with:
-        keep_latest: 2
+        keep_latest: 3
         delete_tags: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
